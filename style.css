@@ -1,0 +1,24 @@
+/* Estilos personalizados */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Animação para botões */
+.btn-animate {
+    transition: all 0.3s ease;
+}
+
+.btn-animate:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Efeito para cards de depoimento */
+.testimonial-card {
+    transition: all 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}

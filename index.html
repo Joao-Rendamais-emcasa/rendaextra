@@ -1,130 +1,117 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Renda em Casa - Ganhe Dinheiro Online</title>
-  <meta name="description" content="Descubra como ganhar renda extra em casa com um método simples, usando apenas seu celular." />
-  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4209/4209067.png" type="image/png" />
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #000;
-      color: #fff;
-    }
-    header {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 30px 20px 0 20px;
-      background-color: #000;
-    }
-    header iframe {
-      width: 100%;
-      max-width: 900px;
-      height: 500px;
-      border-radius: 10px;
-    }
-    .container {
-      max-width: 1000px;
-      margin: auto;
-      padding: 20px;
-    }
-    h1, h2, h3 {
-      color: #ffd700;
-    }
-    .section {
-      margin: 40px 0;
-    }
-    .cta-button {
-      display: inline-block;
-      background: linear-gradient(90deg, #ff9900, #ffcc00);
-      color: #000;
-      padding: 16px 30px;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 1.2em;
-      border-radius: 10px;
-      transition: 0.3s ease-in-out;
-      margin-top: 20px;
-    }
-    .cta-button:hover {
-      background: linear-gradient(90deg, #e68a00, #e6b800);
-    }
-    .highlight {
-      color: #00ffcc;
-    }
-    .testimony, .bonus, .guarantee {
-      background-color: #111;
-      padding: 20px;
-      border-radius: 10px;
-      margin-top: 20px;
-      border: 1px solid #333;
-    }
-    footer {
-      text-align: center;
-      font-size: 0.9em;
-      padding: 20px;
-      color: #888;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    @media (max-width: 768px) {
-      header iframe {
-        height: 250px;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renda Extra - Ganhe Dinheiro em Casa</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
+<body class="font-sans">
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-purple-800 to-purple-900 text-white py-4 sticky top-0 z-50">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="images/logo.png" alt="Logo" class="h-10 mr-2">
+                <span class="font-bold text-xl">Renda Extra</span>
+            </div>
+            <a href="#form" class="bg-yellow-400 hover:bg-yellow-300 text-purple-900 font-bold py-2 px-6 rounded-full transition duration-300">
+                QUERO ME INSCREVER
+            </a>
+        </div>
+    </header>
 
-  <header>
-    <iframe src="https://www.youtube.com/embed/sBcGLqyFKBo" title="Vídeo de Apresentação" frameborder="0" allowfullscreen></iframe>
-  </header>
-
-  <div class="container">
-    <section class="section">
-      <h1>Aprenda Como Ganhar Dinheiro em Casa</h1>
-      <p>Com nosso método exclusivo e validado por centenas de pessoas, você vai aprender a gerar uma <span class="highlight">renda extra real</span> usando apenas seu celular e acesso à internet.</p>
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-purple-700 to-purple-900 text-white py-16">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Ganhe R$5.000 por Mês em Casa</h1>
+                <p class="text-xl mb-6">Com o nosso método comprovado que já ajudou mais de 10.000 pessoas!</p>
+                <a href="#form" class="bg-yellow-400 hover:bg-yellow-300 text-purple-900 font-bold py-3 px-8 rounded-full text-lg transition duration-300 inline-block">
+                    QUERO COMEÇAR AGORA
+                </a>
+            </div>
+            <div class="md:w-1/2">
+                <img src="images/hero-image.png" alt="Pessoas ganhando dinheiro" class="rounded-lg shadow-xl w-full">
+            </div>
+        </div>
     </section>
 
-    <div class="testimony">
-      <h3>Depoimentos de Quem Já Transformou a Vida</h3>
-      <p>"Comprei sem acreditar muito, mas em menos de uma semana fiz minha primeira venda. Já recuperei o valor investido!" – <strong>Carla M.</strong></p>
-      <p>"Estava desempregado e esse curso me deu um caminho. Fiz R$ 450 na primeira semana!" – <strong>Paulo H.</strong></p>
-    </div>
-
-    <section class="section">
-      <h2>O Que Você Vai Aprender</h2>
-      <ul>
-        <li>Como encontrar produtos certos para vender</li>
-        <li>Estratégias para atrair clientes todos os dias</li>
-        <li>Como criar posts que vendem no automático</li>
-        <li>Como escalar suas vendas de forma inteligente</li>
-      </ul>
+    <!-- Depoimentos -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-purple-800">O QUE NOSSOS ALUNOS DIZEM</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <img src="images/user1.jpg" alt="Cliente" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Maria Silva</h4>
+                            <p class="text-yellow-500">★★★★★</p>
+                        </div>
+                    </div>
+                    <p>"Consegui pagar todas minhas dívidas em apenas 2 meses! Obrigado pelo método!"</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <img src="images/user2.jpg" alt="Cliente" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">João Oliveira</h4>
+                            <p class="text-yellow-500">★★★★★</p>
+                        </div>
+                    </div>
+                    <p>"Estou conseguindo complementar minha aposentadoria sem sair de casa. Recomendo!"</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <img src="images/user3.jpg" alt="Cliente" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Ana Santos</h4>
+                            <p class="text-yellow-500">★★★★☆</p>
+                        </div>
+                    </div>
+                    <p>"No primeiro mês já obtive resultados. Agora estou evoluindo cada vez mais!"</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <div class="bonus">
-      <h3>Bônus Especial para Hoje</h3>
-      <p>Você ainda leva um bônus secreto que pode triplicar seus resultados se aplicar da forma correta.</p>
-    </div>
+    <!-- Formulário -->
+    <section id="form" class="py-16 bg-white">
+        <div class="container mx-auto px-4 max-w-2xl">
+            <div class="bg-purple-50 p-8 rounded-xl shadow-lg">
+                <h2 class="text-3xl font-bold text-center mb-6 text-purple-800">INSCREVA-SE AGORA</h2>
+                <form class="space-y-4">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700">Nome Completo</label>
+                        <input type="text" id="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-purple-500 focus:ring-purple-500 p-2 border">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700">E-mail</label>
+                        <input type="email" id="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-purple-500 focus:ring-purple-500 p-2 border">
+                    </div>
+                    <div>
+                        <label for="phone" class="block text-sm font-medium text-gray-700">WhatsApp</label>
+                        <input type="tel" id="phone" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-purple-500 focus:ring-purple-500 p-2 border">
+                    </div>
+                    <button type="submit" class="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-4 rounded-md transition duration-300">
+                        QUERO GARANTIR MINHA VAGA
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
 
-    <div class="guarantee">
-      <h3>Garantia de Resultado ou Seu Dinheiro de Volta</h3>
-      <p>Testou o curso e não funcionou pra você? Em até 30 dias, devolvemos seu dinheiro e ainda te damos R$100 via Pix.</p>
-    </div>
-
-    <div style="text-align: center;">
-      <a class="cta-button" href="https://pay.kiwify.com.br/sUqnazH?afid=vrzobhyW" target="_blank">Quero Garantir Minha Vaga Agora</a>
-    </div>
-  </div>
-
-  <footer>
-    &copy; 2025 Renda em Casa. Todos os direitos reservados.
-  </footer>
-
+    <!-- Footer -->
+    <footer class="bg-purple-900 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>© 2023 Renda Extra. Todos os direitos reservados.</p>
+            <div class="mt-4">
+                <a href="#" class="text-sm text-gray-300 hover:text-white mx-2">Termos de Uso</a>
+                <a href="#" class="text-sm text-gray-300 hover:text-white mx-2">Política de Privacidade</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
